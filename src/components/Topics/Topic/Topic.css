@@ -1,0 +1,19 @@
+.topic {
+  height: 80px;
+  width: 200px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topic > p {
+  font-size: 20px;
+  font-weight: 700;
+  color: black !important;
+}
+
+.topic:hover {
+  cursor: pointer;
+  background-color: #dadada;
+}

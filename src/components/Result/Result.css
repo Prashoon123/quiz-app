@@ -1,0 +1,39 @@
+.result {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.result > h1 {
+  margin-bottom: 20px;
+}
+
+.result__shareContainer {
+  margin-top: 10px;
+  background-color: white;
+  height: 50px;
+  width: auto;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+
+.result__icon {
+  margin-left: 5px;
+}
+
+.result__button {
+  margin-top: 30px;
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: rgb(247, 49, 0);
+  color: white;
+}
+
+.result__button:hover {
+  cursor: pointer;
+}
